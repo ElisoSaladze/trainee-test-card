@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+.grid {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    row-gap: 20px;
+}
+.card {
+    width: 270px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+}
+h2 {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+p {
+    font-size: 1em;
+    line-height: 15px;
+}
+.card img {
+    width: 25%;
+    height: auto;
+}
+.card .txt {
+    width: 80%;
+}
+button {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.black-btn {
+    background-color: black;
+    color: white;
+}
+.black-btn:hover {
+    background: white;
+    color: black;
+}
+.pink {
+    background: #e8346c;
+    color: white;
+    border: 2px solid #e8346c;
+}
+.pink img {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(191deg) brightness(101%) contrast(103%);
+}
+.pink-btn {
+    background-color: white;
+    color: #e8346c;
+    border: 1px solid #e8346c;
+}
+.pink-btn:hover {
+   color: white;
+   background: #e8346c;
+   border-color: white;
+}
